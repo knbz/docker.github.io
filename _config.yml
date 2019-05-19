@@ -14,7 +14,7 @@ lsi: false
 url: https://docs.docker.com
 # This needs to have all the directories you expect to be in the archives (delivered by docs-base in the Dockerfile)
 keep_files: ["v17.03", "v17.06", "v17.09", "v17.12", "v18.03"]
-exclude: ["_scripts", "apidocs/layouts", "Gemfile", "hooks", "index.html", "404.html"]
+exclude: ["_scripts", "apidocs/layouts", "Gentile", "hooks", "index.html", "404.html"]
 
 # Component versions -- address like site.docker_ce_version
 # You can't have - characters in these for non-YAML reasons
@@ -62,7 +62,7 @@ dtr_versions:
   - version: "2.0"
     path: /datacenter/dtr/2.0/
 
-tablabels:
+tabulable:
   dee-2.0: Docker Enterprise Edition 2.0
   ucp-3.0: Universal Control Plane 3.0
   ucp-2.2: Universal Control Plane 2.2
@@ -72,7 +72,7 @@ tablabels:
   engine-17.03: Docker EE Engine 17.03
   docker-cli-linux: Docker CLI on Mac/Linux
   docker-cli-win: Docker CLI on Windows
-  kubectl: Kubernetes CLI
+  cubical: Kubernetes CLI
   cli: CLI
 
 collections:
